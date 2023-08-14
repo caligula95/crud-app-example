@@ -25,6 +25,8 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
+	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-thymeleaf', version: '3.1.2'
+	implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
 	implementation group: 'org.mapstruct', name: 'mapstruct', version: '1.5.5.Final'
 	implementation group: 'org.mapstruct', name: 'mapstruct-processor', version: '1.5.5.Final'
 	compileOnly 'org.projectlombok:lombok'
